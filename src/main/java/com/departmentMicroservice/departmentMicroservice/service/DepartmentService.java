@@ -20,7 +20,6 @@ public class DepartmentService {
     }
 
     public Department findById(Long departmentId) {
-
         return departmentRepository.findByDepartmentId(departmentId);
 
     }
